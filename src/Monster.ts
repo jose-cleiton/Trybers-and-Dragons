@@ -1,4 +1,4 @@
-import Fighter, { SimpleFighter } from './Fighter/interfaceFighter';
+import Fighter, { SimpleFighter } from './Fighter';
 
 export default class Monster implements SimpleFighter {
   protected _lifePoints: number;

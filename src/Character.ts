@@ -1,6 +1,6 @@
 import Archetype, { Mage } from './Archetypes';
 import Energy from './Energy';
-import Fighter, { SimpleFighter } from './Fighter/interfaceFighter';
+import Fighter, { SimpleFighter } from './Fighter';
 import Race, { Elf } from './Races';
 import getRandomInt from './utils';
 
@@ -27,8 +27,6 @@ export default class Character implements Fighter {
       amount: getRandomInt(1, 10),
     };
   }
-
-  sum = (a: number, b : number) : number => a + b;
   
   get race(): Race {
     return this._race;

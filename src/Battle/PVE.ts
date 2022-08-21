@@ -1,4 +1,4 @@
-import Fighter, { SimpleFighter } from '../Fighter/interfaceFighter';
+import Fighter, { SimpleFighter } from '../Fighter';
 import Monster from '../Monster';
 import Battle from './Battle';
 
